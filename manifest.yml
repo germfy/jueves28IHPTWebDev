@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: germanihpt2018
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 64M
+  host: germanihpt2018
