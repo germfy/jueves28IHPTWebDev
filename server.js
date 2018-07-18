@@ -10,7 +10,7 @@ app.set('view engine', 'hbs');
 
 app.get('/', (solicitud, respuesta, siguiente)=>{
   let data = {
-    nombre: "German Dominguez",
+    nombre: "German Dominguez Montes",
     bootcamp: "IronHack WebDev Part Time",
     address: direccion
   };
